@@ -1,0 +1,51 @@
+
+git status
+git init 
+git add --a 
+git commmit -m "New" 
+tuch git
+touch gitignore ----------- make this file and put the nother if u want to ignore other file 
+git diff  this shows what has changed/ ccompair both file and print the new and old text 
+git diff --stage 
+git add . to add all in the staging area
+
+git commit -a -am "Direct Comit" this is direct commit. but untraccked file will not be committed 
+git log 
+q to come out from log type just q 
+
+git rm third.txt to remove a file 
+git mv practice1.txt hi1.txt to rename file
+git rm --cached third.txt    ---  to untrack  
+rm -rf .git to reove all the git traccked file 
+git log -p 
+git log --stat
+git log --pretty=oneline this command shows all the commits at one times
+git log --since=2.weeks get commits by time i
+git log --since=2days 
+git checkout -- hi.txt to undelete recent deleted file 
+git checkout -f to go back to the previous work after deleting all the latest changes. This can be dnagerious 
+git remote : to check the status in remote Meaning github 
+
+git git push -u origin master : to push to the git hub directly 
+
+
+
+or create a new repository on the command line
+
+echo "# basic-Pytthon-Code-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/diraj-git/basic-Pytthon-Code-.git
+git push -u origin master 
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/diraj-git/basic-Pytthon-Code-.git
+git branch -M master
+git push -u origin master
+
+
+
+
