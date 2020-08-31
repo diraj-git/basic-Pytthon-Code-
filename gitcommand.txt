@@ -47,5 +47,17 @@ git branch -M master
 git push -u origin master
 
 
+******* GIt Short Hand (Alias)  **************** 
+git config --global alias.st status (using st instead of status)  now u can type: git st instead of git status 
+
+
+like this u can make your won git short hand. the command is: git config --global alias. (your short word here) and replace word 
+
+git restore --staged  to unstage the change 
+
+git config --global alias.last 'log -p -1' 
+
+
+************** Branching ************ 
 
 
