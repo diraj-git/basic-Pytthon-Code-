@@ -1,0 +1,1 @@
+I am preparing basic Python course to begninners. These are the basic code that you encounter frequently while learning basic Python. 
