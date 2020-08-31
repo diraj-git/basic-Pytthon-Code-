@@ -47,6 +47,8 @@ git branch -M master
 git push -u origin master
 
 
+git restore dipak.txt ( to restore the commit) this coud be danger 
+
 ******* GIt Short Hand (Alias)  **************** 
 git config --global alias.st status (using st instead of status)  now u can type: git st instead of git status 
 
@@ -59,5 +61,10 @@ git config --global alias.last 'log -p -1'
 
 
 ************** Branching ************ 
+git checkout -b devlop 
+
+
+
+
 
 
