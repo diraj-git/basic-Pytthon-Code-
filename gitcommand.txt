@@ -1,10 +1,40 @@
 
-git status
-git init 
-git add --a 
 
-git status
-git init 
+
+
+******************* installing git ************ 
+https://git-scm.com/downloads go to this website and choose your operating system 
+do next next all the way. 
+check on lunch git bash
+git bash looks and work like linex 
+u can work on git bash 
+but in windows u can work in terminal too
+
+ ***************** startinng git in windows********** 
+go to:  git bash 
+if u are using git first time in your computer : u need to set up email and name 
+change directory: cd desktop/
+present workinf directory: PWD 
+
+
+you can use GUI(Graphic User Interfface) also. but command line is good practice then GUI as u are a programmer. VS code also provide GUI feature . 
+
+**** Starting Git or setup for the first time in your comuter. **************** 
+
+git config -- global user.name "YourName" 
+
+git config -- global user.email "YourEmail" 
+
+after this u can check the status: git config --list   :(u can see your name and email assigned here in the git system) 
+
+to choose editor: git config --global core.editor vim  ( vim is name of editor) 
+
+
+************ Start git *********** 
+** git basic commands********* 
+
+git status : check the status of git 
+git init  : this command make the normal folder a git folder 
 git add --a 
 git commmit -m "New" 
 tuch git
@@ -67,6 +97,32 @@ git checkout -b devlop : making new branch named devlop
 git checkout master  :  to go back to master 
 git checkout dipak   : to go to dipak branch 
 git checkout devlop : to go to devlop branch 
+git branch   : shows all branches in the folder 
+
+******* Branch Merge *********************************** 
+
+make sure you commit everything to master befroe you merge file to master 
+beofre merge u need to be in the master branch 
+
+when u are in master branch then u can run followinf command to merge :
+
+git merge (name of brnanch to be mergged) 
+
+
+**** Merge conflict ******************
+while merging u may get merge conflict u need to choose which one to put. incoming (coming from barnch) existing (existing of master) 
+after u choose the changes get fixed and u need to cmmit the changes to master.
+
+************* Brranching workflow *********** 
+
+
+
+
+
+
+
+
+
 
 
 
