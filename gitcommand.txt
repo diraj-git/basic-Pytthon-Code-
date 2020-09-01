@@ -115,9 +115,15 @@ after u choose the changes get fixed and u need to cmmit the changes to master.
 
 ************* Brranching workflow *********** 
 
+to push the branch on remote such as github or git bucket use following command
+git push origin devlop (devlop is the name of branch) 
+git push origin dipak (dipak is the name of branch)
+git push -u origin master  ( command to push onto master) 
 
 
-
+Note : while ushing to remote osh from the particulat branch. 
+u can use the code like below . this changes the branch name to shyam 
+git push origin dipak : shyam
 
 
 
