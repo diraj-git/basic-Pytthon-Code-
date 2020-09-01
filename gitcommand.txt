@@ -2,6 +2,10 @@
 git status
 git init 
 git add --a 
+
+git status
+git init 
+git add --a 
 git commmit -m "New" 
 tuch git
 touch gitignore ----------- make this file and put the nother if u want to ignore other file 
@@ -58,6 +62,15 @@ git restore --staged  to unstage the change
 git config --global alias.last 'log -p -1' 
 
 
-************** Branching ************ 
+************** Branching ************ swicth to branch and master back and fort 
+git checkout -b devlop : making new branch named devlop 
+git checkout master  :  to go back to master 
+git checkout dipak   : to go to dipak branch 
+git checkout devlop : to go to devlop branch 
 
-$ git checkout master 
+
+
+
+
+
+
