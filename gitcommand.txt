@@ -121,16 +121,21 @@ git push origin dipak (dipak is the name of branch)
 git push -u origin master  ( command to push onto master) 
 
 
-Note : while ushing to remote osh from the particulat branch. 
+Note : while ushing to remote push from the particulat branch. 
 u can use the code like below . this changes the branch name to shyam 
 git push origin dipak : shyam
 
+**** deleting remote **************** 
+ if u want to delete branch of remote from git bash code is below: Dipak is brnah name 
+git push -d origin dipak 
 
 
+**** Deleting **** branch in git bash. code is below 
+
+git branch -d dipak ( dipak is the name of branch) 
 
 
-
-
+*************************************************************************** done ********************* its simple *************** 
 
 
 
